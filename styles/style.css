@@ -1,6 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* navbar */
+header{
+   
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+    
+    
+}
+.head{
+      display: grid;
+      grid-template-columns: repeat(2,1fr );
+      width: 870px;
+      background-color: lightskyblue;
+      padding: 10px 30px;
+      justify-content: space-between;
 
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 40%;
+   
+    
+    
 
+}
+.nav{
+    display: flex;
+    text-align: right;
+   width: 60%;
+   align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    font: 18px;
+    margin-right: 7%;
+    color: white; 
+    transition: 1s;
+}
+.nav a:hover{
+    color: rgb(49, 51, 53);
+}
 /* top player and blog */
 /* main utulizer */
 body{
@@ -129,7 +175,7 @@ article{
     .container{
         width: 100%;
     }
-   .players,.blogs {
+   .players,.blogs,header {
       
       grid-template-columns:repeat(1, 1fr);
   
